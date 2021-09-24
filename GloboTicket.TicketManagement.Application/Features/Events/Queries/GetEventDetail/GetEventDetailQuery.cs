@@ -1,7 +1,7 @@
-﻿using System;
-using MediatR;
+﻿using MediatR;
+using System;
 
-namespace GloboTicket.TicketManagement.Application.Features.Events
+namespace GloboTicket.TicketManagement.Application.Features.Events.Queries.GetEventDetail
 {
     public class GetEventDetailQuery: IRequest<EventDetailVm>
     {
